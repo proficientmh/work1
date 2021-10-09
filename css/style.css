@@ -1,0 +1,280 @@
+@font-face{
+	font-family: mulish_black;
+	src: url(font/Mulish_Black.woff2);
+}
+
+@font-face{
+	font-family: mulish_bold;
+	src: url(font/Mulish_Bold.woff2);
+
+}
+
+@font-face{
+	font-family: mulish_regular;
+	src: url(font/mulish_regular.woff2);
+
+}
+
+*{
+	margin: 0;
+	padding: 0;
+	outline: none;
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
+/*.mainLeft{
+	padding-right: 20px;
+}*/
+
+.mainLeft .head{
+	width: 85%;
+	margin: auto;
+}
+
+.mainLeft .head .face{
+	width: 88%;
+	margin: auto;
+}
+
+.mainLeft .head .face img{
+	width: 100%;
+	border-radius: 50%;
+}
+
+.mainLeft .head .htxt{
+	font-family: 'Montserrat', sans-serif;
+	text-transform: uppercase;
+	margin-top: 30px;
+}
+
+
+
+/*possioning*/
+
+.mainLeft .downt{
+	margin-top: 30px;
+	background-color: #FAC9C4;
+}
+.mainLeft .downt .downMid {
+
+	position: absolute;
+	background-color: #FAC9C4;
+	width: 315px;
+	height: 814px;
+}
+.mainLeft .downMid .down{
+	position: absolute;
+	top: -17px;
+	right: 0;
+	left: 0;
+	bottom: 0;
+	margin: auto;
+}
+
+
+/*left down text css*/
+
+.mainLeft .downMid .down .txts{
+	width: 75%;
+	margin: auto;
+}
+
+.mainLeft .downMid .down .txts h4{
+	display: table;
+	margin: auto;
+	color: white;
+	background: black;
+	padding: 5px;
+	width: 100%;
+	border-radius: 3px;
+	text-align: center;
+	margin-bottom: 20px;
+	text-transform: uppercase;
+	font-size: 21px;
+
+}
+.mainLeft .downMid .down .txts p{
+	text-align: left;
+	padding: 0px 10px;
+	line-height: 12px;
+}
+
+.mainLeft .downMid .down .txts table img{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin: 0px 5px 0px 5px;
+}
+
+.mainLeft .downMid .down .txts .lastBox{
+
+}
+
+
+
+
+/*right*/
+.mainRight{
+	font-family: 'Open Sans', sans-serif;
+}
+
+/*about*/
+
+.mainRight .about .top{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 20px;
+}
+
+.mainRight .about .top img{
+	border-radius: 50%;
+	height: 28px;
+	width: 28px;
+}
+
+.mainRight .about .top div{
+	display: inline-block;
+	width: 94%;
+	border-bottom: 3px solid black;
+}
+
+.mainRight .about .top span{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.mainRight .about p{
+	text-align: justify;
+	color: grey;
+}
+
+
+
+/*education*/
+
+.mainRight .education .top{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+
+.mainRight .education .top img{
+	border-radius: 50%;
+	height: 28px;
+	width: 28px;
+}
+
+.mainRight .education .top div{
+	display: inline-block;
+	width: 94%;
+	border-bottom: 3px solid black;
+}
+
+.mainRight .education .top span{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.mainRight .education p{
+	text-align: justify;
+	color: grey;
+}
+
+.mainRight .education .name1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0;!important;
+	padding-bottom: 0;!important;
+}
+
+.mainRight .education .name1 span{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+/*
+.mainRight .education .name1 img{
+	height: 13px;
+	width: 9px;
+}*/
+
+
+
+/*experience*/
+
+.mainRight .experience .top{
+	display: flex;
+	justify-content: space-between;
+	margin-top: 40px;
+	margin-bottom: 25px;
+}
+
+.mainRight .experience .top img{
+	border-radius: 50%;
+	height: 28px;
+	width: 28px;
+}
+
+.mainRight .experience .top div{
+	display: inline-block;
+	width: 94%;
+	border-bottom: 3px solid black;
+}
+
+.mainRight .experience .top span{
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 20px;
+	text-transform: uppercase;
+}
+
+.mainRight .experience p{
+	text-align: justify;
+	color: grey;
+}
+
+.mainRight .experience .name1{
+	display: flex;
+	justify-content: space-between;
+	margin-bottom: 0;!important;
+	padding-bottom: 0;!important;
+}
+
+.mainRight .experience .name1 span{
+	font-size: 18px;
+	text-transform: uppercase;
+}
+/*
+.mainRight .education .name1 img{
+	height: 13px;
+	width: 9px;
+}*/
+
+
+/*skill*/
+
+.skill .left{
+	display: flex;
+	justify-content: space-between;
+}
+
+.skill .left table img{
+	height: 10px;
+	width: 10px;
+	border-radius: 50%;
+	margin: 0px 5px 0px 5px;
+}
+
+/*
+.skill .left table{
+	display: table;
+}
+*/
+
